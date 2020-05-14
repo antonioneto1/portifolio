@@ -1,57 +1,370 @@
-<!DOCTYPE html>
-<header>
-  <meta charset="utf-8">
-  <link rel="stylesheet" href="index.css">
-  <nav class="menu">
-    <ul>
-      <li><a href="#">Sobre</a> </li>
-      <li><a href="#">Portfólio</a> </li>
-      <li><a href="#">Contato</a> </li>
-      
-    </ul>
-  </nav>
-  <div class="animation">
-  <h1 class="site-title">{Antonio C Neto}</h1>
-  <!-- <img src="./imagens/nome.svg" alt=""> -->
-</div>
-  <h2 class="site-subtitulo">Jr. Frontend Developer</h2>
-</header>
-<section>
-  <h2>Portfólio</h2>
-  <figure>
-    <img class="img-portfolio" src="./imagens/ecommerce-creditos-s-o-c-i-a-l-c-u-t-unsplash.jpg" alt="eCommerce">
-    <figcaption>eCommerce</figcaption>
-  </figure>
-  <figure>
-    <img class="img-portfolio" src="./imagens/mobile-creditos-nate-grant-unsplash.jpg" alt=">Mobile">
-    <figcaption>Mobile</figcaption>
-  </figure>
-  <figure>
-    <img class="img-portfolio" src="./imagens/webdesign-creditos-domenico-loia-unsplash.jpg" alt="Web design">
-    <figcaption>Web design</figcaption>
-  </figure>
-  <figure>
-    <img class="img-portfolio" src="./imagens/projpessoais-creditos-hal-gatewood-unsplash.jpg" alt="Projetos pessoais">
-    <figcaption>Projetos pessoais</figcaption>
-  </figure>
-</section>
-<section class="contato">
-  <h2>Contato</h2>
-	<div class="grid icons">
-    <a target="_blank" href="https://github.com/antonioneto1">
-      Github
-    </a>
-    <a target="_blank" href="https://www.linkedin.com/in/antonio-cavalcante-neto-160270ba/">
-      linkedin
-    </a>
-    <a href="mailto:antoniocavalcante1910@hotmail.com">
-      email
-    </a>
-  </div>
-</section>
+<!doctype html>
+<html lang="pt-br">
+    <head>
+        <title>Portfolio</title>
+        <meta charset="utf-8">
+        <meta name="author" content="Antonio C Neto">
+        <meta name="description" content="Portfolio Antonio C Neto">
+        <script src="https://kit.fontawesome.com/805965cf9d.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="assets/styles.css">
+        <link rel="stylesheet" href="assets/styles-780px-1024px.css">
+        <meta name="viewport" content="width=device-width">
+       
+    </head>
+    <body>
+      <section class="header-portfolio " id="home">
+          <div class="box-color"></div>
+          <div class="box-avatar">
+            <img src="./assets/imagens/eu.jpg" alt="foto pessoal">
+          </div>
+          <!-- <h1>{Antonio C Neto} </h1> -->
+          <!-- <h2>Junior Web Developer</h2> -->
+          <img class="svg" src="./assets/imagens/name.svg"  alt="">
+          <figcaption> Junior Web Developer </figcaption>
 
-<body>
-  <div >
-    
-  </div>
-</body>
+          <div class="header-description">
+            <p>
+                Estudante e entusiasta da área de tecnologia. Apaixonado por desafios. Busco um estagio em um local onde possa crescer e aprender,
+                focado em design responsivo.
+            </p>
+          </div>
+        <nav class='icons'>
+        <ul class="ul-icons">
+            <li class="icons"><a href="https://github.com" target="_blank"><i class="fab fa-github"></i></a></li>
+            <li class="icons"><a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+        </ul>
+      </nav>
+        <div class="arrow-down">
+            <i class="fas fa-chevron-down"></i>
+            <a href="#about"></a>
+        </div>
+       
+            <div class="hamburger-box">
+                <span class="hamburger"></span>
+            </div>
+           
+      </section>
+
+      <header>
+        <nav class="nav-bar">
+            <ul>
+                <li><a class="link" href="#home">inicio</a></li>
+                <li><a class="link" href="#about ">sobre mim</a></li>
+                <li><a class="link" href="#skills ">habilidades</a></li>
+                <li><a class="link" href="#experience ">experiências</a></li>
+                <li><a class="link" href="#projects ">projetos</a></li>
+                <li><a class="link" href="#footer ">contato</a></li>
+            </ul>
+        </nav>
+     </header>
+      <main class="main-portifolio">
+          <section class="container-standard" id="about">
+
+            <div data-anime="left">
+                <h1 class="standard-h1">sobre mim</h1>
+                <p class="standard-p">Algumas informações importantes referente a minha pessoa como profissional</p>
+            </div>
+
+                <div class="section-box-about">
+                    <div class="side-left">
+                        <h2>Qualidades</h2>
+                      
+                        <div class="about-box-list" data-anime="left">
+                            <span class="about-item-list">Sou um profissional apaixonado pelo que faço.</span>
+                            <span class="about-item-list">Estou sempre em constante evolução nas tecnologias que utilizo.</span>
+                            <span class="about-item-list">Procuro sempre ter foco em boas praticas de programação.</span>
+                            <span class="about-item-list">Estou sempre praticando e me desafiando para assim estar evoluindo como um profissional qualificado.</span>
+                        </div>
+                    </div>
+
+                    <div class="side-rigth">
+                        <h2>Nivel de conhecimento estimado nas tecnologias que utilizo</h2>
+                        <div class="container-bar">
+                            <h3>html</h3>
+                            <div class="box" >
+                                <div class="value-bar">92%</div>
+                                <div class="arrow-bar"></div>
+                            </div>
+                            <div class="bar">
+                                <div data-life="html">
+                                    <div class="color-bar"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="container-bar">
+                            <h3>javascript</h3>
+                            <div class="box" >
+                                <div class="value-bar">88%</div>
+                                <div class="arrow-bar"></div>
+                            </div>
+                            <div class="bar">
+                                <div data-life="javascript">
+                                    <div class="color-bar"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="container-bar">
+                            <h3>css</h3>
+                            <div class="box" >
+                                <div class="value-bar">80%</div>
+                                <div class="arrow-bar"></div>
+                            </div>
+                            <div class="bar">
+                                <div data-life="css">
+                                    <div class="color-bar"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="container-bar">
+                            <h3>react</h3>
+                            <div class="box" >
+                                <div class="value-bar">75%</div>
+                                <div class="arrow-bar"></div>
+                            </div>
+                            <div class="bar">
+                                <div data-life="react">
+                                    <div class="color-bar"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="container-bar">
+                            <h3>nodejs</h3>
+                            <div class="box" >
+                                <div class="value-bar">70%</div>
+                                <div class="arrow-bar"></div>
+                            </div>
+                            <div class="bar">
+                                <div data-life="nodejs">
+                                    <div class="color-bar"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+          </section>
+
+          <section class="container-standard" id="skills">
+
+            <div data-anime="rigth">
+                <h1 class="standard-h1">habilidades</h1>
+                <p class="standard-p">Sempre prezando por boas praticas e organização em cada projeto.</p>
+            </div>
+
+            <div class="container-skill-icons">
+
+                <div class="skill-icons" >
+                    <div class="skill-icon-box"data-anime="scala" >
+                        <i class="fab fa-html5"></i>
+                    </div>
+                    
+                        <span class="line" data-anime="scala"></span>
+                        
+                    <div class="skill-icon-name" data-anime="down">
+                        <h4 >HTML</h4>
+                    </div>
+
+                    <div class="skill-list"data-anime="top" >
+                           <p>Marcação bem formada,  semanticamente correta</p>
+                    </div>
+                </div>
+
+                <div class="skill-icons" >
+                    <div class="skill-icon-box" data-anime="scala">
+                        <i class="fab fa-css3-alt"></i>
+                    </div>
+                    
+                        <span class="line" data-anime="scala"></span>
+                        
+                    <div class="skill-icon-name" data-anime="down">
+                        <h4>CSS</h4>
+                    </div>
+
+                    <div class="skill-list" data-anime="top">
+                        <p>Ordem, organização, agrupamento mas estilizações. </p>   
+                    </div>
+                </div>
+
+                <div class="skill-icons" >
+                    <div class="skill-icon-box" data-anime="scala">
+                        <i class="fab fa-react"></i>
+                    </div>
+                    
+                        <span class="line" data-anime="scala"></span>
+                        
+                    <div class="skill-icon-name" data-anime="down">
+                        <h4>React</h4>
+                    </div>
+
+                    <div class="skill-list" data-anime="top">
+                         <p >Reusabilidade de componentes, boas práticas na criação e separação de 
+                             responsabilidades em componentes .</p>
+                    </div>
+                </div>
+
+                <div class="skill-icons" >
+                    <div class="skill-icon-box" data-anime="scala">
+                        <i class="fab fa-node-js"></i>
+                    </div>
+                    
+                        <span class="line" data-anime="scala"></span>
+                        
+                    <div class="skill-icon-name" data-anime="down">
+                        <h4>Nodejs</h4>
+                    </div>
+
+                    <div class="skill-list" data-anime="top">
+                         <p >Cuidado em desenvolver um codigo limpo, organizado e de facil manutenção.</p>
+                    </div>
+                </div>
+            </div>
+          </section>
+ 
+          <section class="container-standard" id="experience"> 
+
+            <div data-anime="left">
+                <h1 class="standard-h1" data-anime="left">experiência</h1>
+                <p class="standard-p" data-anime="rigth">Experiências que tive ate o momento.</p>
+            </div>
+
+            <div class="experience-container" data-anime="rigth">
+                <div class="details-box">
+                    <div class="content">
+                        <h4>Docner Desenvolvimento</h4>
+                        <p>01 de setembro de 2019</p>
+                    </div>
+                    <span class="descricao">Criação de paginas de aplicativo.</span>
+                </div>
+            </div>
+
+            <div class="experience-container" data-anime="rigth">
+                <div class="details-box">
+                    <div class="content">
+                        <h4>Aplicativo Be the hero</h4>
+                        <p>29 de março de 2020</p>
+                    </div>
+
+                    <span class="descricao">Desemvolvi um aplicativo usando nodejs no back-end, react no front-end e react-native na versão mobile.</span>
+                </div>
+            </div>
+          </section>
+        
+          <section class="container-standard" id="projects">
+            <div data-anime="left">
+                <h1 class="standard-h1" data-anime="left">Projetos</h1>
+                <p class="standard-p" data-anime="rigth">Projeto que desenvolvi todos prototipos de treinamento. </p>
+            </div>
+
+            <div class="galery-projects">
+                <figure class="galery-itens">
+                    <div class="button-link">
+                        <a href="https://github.com/AndersonKich32/Be-the-hero" target="_blank">Git</a>
+                    </div>
+                    <img src="./assets/imagens/icon.png" alt="Be the Hero"/>
+                    <figcaption>
+                        <h2>Projeto <span>Be The Hero</span></h2>
+						<p>App criado usando no Back-end o Nodejs, no Front-end o react e react native para versões mobile.</p>
+                    </figcaption>
+                </figure>
+
+                <figure class="galery-itens">
+                    <div class="button-link">
+                        <a href="https://github.com/antonioneto1/MobileMoney" target="_blank">Git</a>
+                        <!-- <a href="https://range-hotels.netlify.app" target="_blank">Netlify</a> -->
+                    </div>
+                    <img src="./assets/imagens/Mockup.png" alt="Range hotels"/>
+                    <figcaption>
+                        <h2>Em Desenvolvimento<span> Smart Money </span></h2>
+                        <p>Aplicativo de Gerenciamento financeiro, desenvovido com Native React.</p>
+                    </figcaption>
+                </figure>
+
+                <!-- <figure class="galery-itens">
+                    <div class="button-link">
+                        <a href="https://github.com/AndersonKich32/Site-responsivo-cwi" target="_blank">Git</a>
+                        <a href="https://tcc-html-css-cwi.netlify.app" target="_blank">Netlify</a>
+                    </div>
+                    <img src="./assets/imagens/tcc-html-cwi.jpg" alt="Tcc cwi"/>
+                    <figcaption>
+                        <h2>Prototipo <span>Tcc-html-crescer</span></h2>
+                        <p>Tcc HTML/CSS site responsivo projeto crescer CWI.</p>
+                    </figcaption>
+                </figure> -->
+
+                <!-- <figure class="galery-itens">
+                    <div class="button-link">
+                        <a href="https://github.com/AndersonKich32/Projeto-fashion" target="_blank">Git</a>
+                        <a href="https://pagina-fashion.netlify.app" target="_blank">Netlify</a>
+                    </div>
+                    <img src="./assets/imagens/Pagina-fashion.jpg" alt="pagina fashion"/>
+                    <figcaption>
+                        <h2>Prototipo <span>Pagina-fashion</span></h2>
+						<p>Uma simples pagina criada com html e css apenas.</p>
+                    </figcaption>
+                </figure> -->
+
+                <!-- <figure class="galery-itens">
+                    <div class="button-link">
+                        <a href="https://github.com/AndersonKich32/Projeto-strata" target="_blank">Git</a>
+                        <a href="https://prototipo-portifolio-strata.netlify.app" target="_blank">Netlify</a>
+                    </div>
+                    <img src="./assets/imagens/Portifolio-strata.jpg" alt="Portfolio strata"/>
+                    <figcaption>
+                        <h2>Prototipo <span>Portfolio-strata</span></h2>
+                        <p>Um projeto de treinamento de como utilizar forms, tabelas e outros aspectos de html e css.</p>
+                    </figcaption> -->
+                <!-- </figure>  -->
+            </div>
+          </section> 
+      </main>
+
+      <footer  id="footer">
+        <div class="footer-container">
+            <div class="side-left" data-anime="left">
+                <address>
+                    <div class="address-container">
+                        <div class="address-icon"><i class="fas fa-map-marker-alt fa-2x"></i></div>
+                        <div class="address-span">
+                            <p>Endereço: </p>
+                            <p>Rua particular nº 2015, Tabuba, Caucaia - CE</p>
+                        </div>
+                    </div>
+
+                    <div class="address-container">
+                        <div class="address-icon"><i class="fas fa-envelope address-icons fa-2x"></i></div>
+                        <div class="address-span">
+                            <p>Telefone: </p>
+                            <p>(85)98545-4297</p>
+                        </div>
+                    </div>
+
+                    <div class="address-container">
+                        <div class="address-icon"><i class="fas fa-envelope address-icons fa-2x"></i></div>
+                        <div class="address-span">
+                            <p>E-mail:</p>
+                            <p><span>antoniocavalcante1910@hotmail.com</span></p>
+                        </div>
+                    </div>
+                </address>
+            </div>
+               
+            <div class="side-rigth" data-anime="rigth">
+                <ul class="ul-icons">
+                    <li class="icons"><a href="https://github.com" target="_blank"><i class="fab fa-github"></i></a></li>
+                    <li class="icons"><a href="https://www.linkedin.com/in/antonio-cavalcante-neto-160270ba/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="author" data-anime="scala">
+            <p>© 2020 Antonio Cavalcante - Web Developer</p>
+        </div>
+      </footer>
+    </body>
+
+    <script src='./assets/scripts/script-01.js'></script>
+</html>

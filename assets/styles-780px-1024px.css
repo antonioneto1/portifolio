@@ -1,0 +1,140 @@
+@media screen and (min-width: 780px){
+  .container-standard{
+      padding: 0 40px;
+  }
+  
+  .header-portfolio .box-color {
+      height: 115px;
+  }
+  
+  .side-left .about-item-list {
+     margin-left: 5%;
+  }
+      
+  [data-anime="left"]{
+      transform: translateX(-40px);
+   }
+   
+   [data-anime="rigth"]{
+       transform: translateX(40px);
+   }
+  
+  #skills .container-skill-icons {
+      margin: 50px auto 0;
+      flex-wrap: wrap;
+      flex-direction: row;
+  }
+  
+  #skills .container-skill-icons .skill-icons {
+      width: 50%;
+      height: 300px;
+      margin-bottom: 50px;
+  }
+  
+  #projects .galery-projects {
+      flex-direction: row; 
+      flex-wrap: wrap;
+      
+  }
+  
+  #projects .galery-itens {
+      width: 50%;
+  }
+  
+  #experience .experience-container {
+      margin-left: 5%;
+  }
+  
+  #footer .footer-container{
+      padding: 0 40px;
+  }
+  
+  }
+  
+  @media screen and (min-width: 1024px){
+  
+  .container-standard{
+      padding: 0 80px;
+      min-height: 650px;
+  }
+  
+  .header-portfolio{
+      height: 640px;
+  }
+  
+  .header-portfolio .box-color {
+      height: 170px;
+  }
+  
+  .header-portfolio .box-avatar {
+      width: 150px;
+      height: 150px;
+  }
+  
+  .header-portfolio .header-description {
+      width: 50%;
+  }
+  
+  .hamburger-box{
+      display: none;
+      z-index: 0;
+  }
+  
+  .nav-bar {
+      position: static;
+      width: 100%;
+      border-bottom: 2px solid #383838;
+      width: 100%;
+      height: 80px;  
+  }
+  
+  .nav-bar ul {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  
+  .nav-bar ul li{
+      border: none;
+      margin-left: 40px;
+  }
+  
+  .nav-bar-fixed{
+      position: fixed;
+      top: 0; 
+  }
+  
+  .side-left, .side-rigth{
+      width: 50%;   
+  }
+  
+  #about .section-box-about {
+      display: flex;
+      flex-direction: row; 
+      margin: 50px auto;
+  }
+  
+  
+  #skills .container-skill-icons {
+      margin: 50px auto 0;
+      flex-wrap: wrap;
+      flex-direction: row;
+  }
+  
+  #skills .container-skill-icons .skill-icons {
+      width: 25%;
+      height: 300px;
+      margin-bottom: 50px;
+  }
+  
+  #projects .galery-itens {
+      width: 25%;
+      margin: 0;
+  }
+  
+  #footer .footer-container {
+      flex-direction: row;
+      padding: 0 80;
+  }
+  
+  }
