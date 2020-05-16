@@ -45,7 +45,7 @@ body{
 
 .header-portfolio{
     position: relative;
-    background:rgb(181, 245, 235);
+    background:rgb(227, 252, 248);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -84,27 +84,28 @@ nav.icons{
 }
 
 .ul-icons .fab{
-    color: #00283a;
+    color: #4242FF;
     transition-property: color;
     transition-duration: .5s;
 }
 
 .header-portfolio .ul-icons li{
-    margin-left: 8px;
+    margin-left: 45px;
     border-radius: 50%;
     width: 50px;
     height: 50px;
-    border: 1px solid #00283a; 
-    display: flex;
+    border: 1px solid #000075; 
+    display: inline-flex    ;
+    flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     transition-property: background;
     transition-duration: .5s;
 }
 
 .header-portfolio .ul-icons li:hover{
-    background: #00283a;
-    border: 1px solid #00283a;  
+    background: #000042;
+    border: 1px solid #420042;  
 }
 
 .header-portfolio .ul-icons li:hover .fab{
@@ -130,7 +131,7 @@ nav.icons{
 .header-portfolio .box-color{
     width: 100%;
     height: 115px;
-    background: rgb(100, 214, 197);
+    background: rgb(194, 252, 243);
     position: absolute;
     top: 0;
     left: 0;
@@ -305,7 +306,7 @@ nav.icons{
 
 .header-portfolio .arrow-down .fas{
     font-size: 50px;
-    color: #00608b; 
+    color: #000075; 
 }
 
 @keyframes pulseArrow {
@@ -337,14 +338,14 @@ nav.icons{
 .container-standard .standard-h1{
     text-align: center;
     font-size: 38px;
-    color: black;
+    color: #FC4A1A;
     margin: 50px 0;
     text-transform: uppercase;
 }
 
 .container-standard .standard-p{
     text-align: center;
-    color: black;
+    color: #FC4A1A;
     margin: 25px 0;
 }
 
@@ -446,6 +447,10 @@ nav.icons{
 }
 
 [data-life="nodejs"]{
+    width: 60%;
+    height: 100%;
+}
+[data-life="sql"]{
     width: 50%;
     height: 100%;
 }
@@ -487,7 +492,7 @@ nav.icons{
 }
 
 #skills, #projects{
-    background:rgb(100, 214, 197); 
+    background:rgb(194, 252, 243); 
 }
 
 #skills{

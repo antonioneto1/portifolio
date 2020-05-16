@@ -40,6 +40,7 @@ menu.forEach(item => {
     item.addEventListener('click', toogleClassMenu)
 })
 
+
 function toogleClassMenu(e){
 const href = e.target.getAttribute('href')
 menu.forEach(element =>{

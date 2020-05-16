@@ -9,41 +9,35 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    sodipodi:docname="name.svg"
    inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
-   id="svg35"
+   id="svg22"
    version="1.1"
-   viewBox="0 0 327 60"
-   height="60mm"
-   width="327mm">
+   viewBox="0 0 202 30"
+   height="30mm"
+   width="202mm">
   <defs
-     id="defs29" />
+     id="defs16" />
   <sodipodi:namedview
      inkscape:window-maximized="0"
      inkscape:window-y="0"
      inkscape:window-x="0"
      inkscape:window-height="728"
-     inkscape:window-width="1366"
-     inkscape:guide-bbox="true"
-     showguides="true"
+     inkscape:window-width="1350"
+     height="593mm"
      showgrid="false"
      inkscape:document-rotation="0"
      inkscape:current-layer="layer1"
-     inkscape:document-units="cm"
-     inkscape:cy="445.71429"
-     inkscape:cx="400"
-     inkscape:zoom="0.35"
+     inkscape:document-units="mm"
+     inkscape:cy="102.76476"
+     inkscape:cx="396.86483"
+     inkscape:zoom="0.7"
      inkscape:pageshadow="2"
-     inkscape:pageopacity="0.0"
+     inkscape:pageopacity="1"
      borderopacity="1.0"
      bordercolor="#666666"
      pagecolor="#ffffff"
-     id="base">
-    <sodipodi:guide
-       id="guide47"
-       orientation="0,-1"
-       position="235.85714,358.23215" />
-  </sodipodi:namedview>
+     id="base" />
   <metadata
-     id="metadata32">
+     id="metadata19">
     <rdf:RDF>
       <cc:Work
          rdf:about="">
@@ -58,19 +52,17 @@
      id="layer1"
      inkscape:groupmode="layer"
      inkscape:label="Layer 1">
-    <g
-       transform="matrix(3.5191341,-7.8856608e-4,-0.14440257,5.5722566,-130.82565,-599.28697)"
-       id="layer1-1">
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-         x="41.694046"
-         y="115.99497"
-         id="text12"><tspan
-           id="tspan10"
-           x="41.694046"
-           y="115.99497"
-           style="stroke-width:0.264583">{Antonio C Neto}</tspan></text>
-    </g>
+    <text
+       transform="scale(0.75427188,1.3257819)"
+       id="text154"
+       y="16.911907"
+       x="9.322884e-07"
+       style="font-size:23.3853px;line-height:6.62891px;font-family:sans-serif;stroke-width:0.350779"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:23.3853px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Bold';stroke-width:0.350779"
+         y="16.911907"
+         x="9.322884e-07"
+         id="tspan152"
+         sodipodi:role="line">{Antonio Cavalcante Neto}</tspan></text>
   </g>
 </svg>
