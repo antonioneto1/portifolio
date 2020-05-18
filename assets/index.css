@@ -338,14 +338,26 @@ nav.icons{
 .container-standard .standard-h1{
     text-align: center;
     font-size: 38px;
-    color: #FC4A1A;
+    color: #000;
     margin: 50px 0;
     text-transform: uppercase;
+}
+.standard-h1-black{
+    text-align: center;
+    font-size: 38px;
+    color: white;
+    margin: 50px 0;
+    text-transform: uppercase;
+}
+.standard-p-black{
+    text-align: center;
+    color: white;
+    margin: 25px 0;
 }
 
 .container-standard .standard-p{
     text-align: center;
-    color: #FC4A1A;
+    color: #000;
     margin: 25px 0;
 }
 
@@ -384,7 +396,7 @@ nav.icons{
     width: 15px;
     height: 15px;
     border-radius: 50%;
-    background: #FC4A1A;
+    background: rgb(100, 214, 197);
     position: absolute;
     top: 6px;
     left: -33px;
@@ -394,7 +406,7 @@ nav.icons{
 #about .side-left h2{
    margin:40px 0 20px;
    text-align: center;
-   color: #FC4A1A;
+   color: white;
    font-weight: 600;
    font-size: 20px;
 }
@@ -406,7 +418,7 @@ nav.icons{
 }
 
 .side-rigth .container-bar h3{
-    color: #FC4A1A;
+    color: rgb(100, 214, 197);
     font-weight: 700;
     font-size: 14px;
     text-transform: uppercase;
